@@ -1,0 +1,4 @@
+#!/bin/bash
+NUMBER1=400
+NUMBER2=200
+echo "SUM=$(($NUMBER1+$NUMBER2))
