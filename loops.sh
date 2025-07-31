@@ -12,7 +12,7 @@ fi
 PACKAGES=("nginx", "nodejs")
 
 VALIDATE(){
-if [ $1 -eq 0]
+if [ $1 -eq 0 ]
 then
     echo "Installing $2 is success"
 else
