@@ -9,7 +9,7 @@ else
     echo "you are running with root access"
 fi
 
-PACKAGES=("mysql","python", "nginx", "nodejs")
+PACKAGES=("nginx", "nodejs")
 
 VALIDATE(){
 if [ $1 -eq 0]
