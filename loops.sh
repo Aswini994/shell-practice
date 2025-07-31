@@ -1,5 +1,6 @@
 #!/bin/bash
 USERID=$(id -u)
+PACKAGES=("mysql" "python" "nginx" "httpd")
 
 if [ $USERID -ne 0 ]
 then
@@ -8,8 +9,6 @@ then
 else
     echo "you are running with root access"
 fi
-
-PACKAGES=("nginx", "nodejs")
 
 VALIDATE(){
 if [ $1 -eq 0 ]
